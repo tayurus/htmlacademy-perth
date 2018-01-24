@@ -1,0 +1,16 @@
+.button{
+    padding: 21px 28px 20px
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.button__img{
+    margin-left: 12px;
+}
+
+.button__img_download{
+    width: 18px;
+    height: 13px;
+    background: url("img/button_download.png") no-repeat center;
+}

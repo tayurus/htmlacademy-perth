@@ -1,0 +1,11 @@
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #545454;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+}
+
+.title_textRight{
+    text-align: right;
+}

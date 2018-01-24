@@ -1,0 +1,16 @@
+.text{
+    font-family: "Proxima Nova";
+    line-height: 25px;
+}
+
+.text_bold{
+    font-weight: bold;
+}
+
+.text_gray{
+    color: #7e7e7e;
+}
+
+.text_white{
+    color: #fff;
+}

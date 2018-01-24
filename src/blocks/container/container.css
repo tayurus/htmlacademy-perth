@@ -1,0 +1,20 @@
+.container{
+
+}
+
+.container_marginTop_40{
+    margin-top: 40px;
+}
+
+.container_blue{
+    background: url("img/container_header.png") no-repeat center;
+    background-size: cover;
+}
+
+.container_maxWidth_730{
+    max-width: 730px;
+}
+
+.container_center{
+    margin: auto;
+}

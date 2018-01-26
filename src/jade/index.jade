@@ -1,17 +1,77 @@
 include ../blocks/head/head.jade
-.container
-    .container.container_blue
-        include ../blocks/header/header.jade
-        .container.container_width_730.container_marginTop_40
-            h1.title.title_textRight Meet Perth
-            h2.title 
-                | A stupidly simple, flat PSD. Oh yeah, it’s 
-                span.text.text_bold.text_white free
-                | too!
-                button.button download
-                    .button__img.button__img_download
-    .container_phone
+.container.container_blue
+    include ../blocks/header/header.jade
+    //FIRST
+    .container.container_maxWidth_740.container_center.container_marginTop_40 
+        h1.title.title_textRight.header__title Meet Perth
+        h2.title.title_fontSize_35.header__title 
+            | A stupidly simple, flat PSD. Oh yeah, it’s 
+            span.text_bold.text_white.text_inline free 
+            | too!
+        button.button.button_white.button_marginTop_50.button_left.button_colorWrapper_tomato
+            span download
+            .button__img.button__img_download
+            .button__colorWrapper
+            
+        .container__phone
+        
+//SECOND 
+.container.container_gray
+    .container_maxWidth_1260.container_paddingTop_90
+        .container.container_maxWidth_560.container_center_whenWidth_980
+            .title.title_marginBottom_20 A Longwinded Header
+            .text she'll be right paddock how lets throw a ciggies. She'll be right ute to built like a doovalacky. We're going rack off bloody she'll be right pash. You little ripper tucker also get a dog up ya greenie.
+            br
+            br
+            .text.paragraph you little ripper boozer no worries she'll be right holy dooley!. Come a freo also as cross as a your shout. Lets throw a khe sanh flamin dead dingo's donger. Lets get some fisho with grab us a trackie dacks.
+            
+            button.button.button_green.button_marginTop_50.button_colorWrapper_tomato
+                span SAY HELLO
+                .button__img.button__img_message
+                .button__colorWrapper
+                
+    .container__tablet
     
+//THIRD
+.container
+    .container_maxWidth_1260.container_center.container_paddingTop_90.container_verticalPadding_30_whenWidth1210
+        .container.container_maxWidth_385.container_Width385_right.container_center_whenWidth_1210
+            .title.title_marginBottom_20 Get a Dog Up Ya’
+            .text.text_bold She'll be right paddock how lets throw a ciggies. 
+            .text.text_bold She'll be right ute to built like a doovalacky.
+            br
+            br
+            .text We're going rack off bloody she'll be right pash. You little ripper tucker also get a dog up ya greenie.
+            button.button.button_pink.button_marginTop_50.button_colorWrapper_tomato
+                span VIEW ON DRIBBBLE
+                .button__img.button__img_view
+                .button__colorWrapper 
+                
+    .container__devices
+    
+.container.container_green.container_paddingTop_90.container_paddingBottom_90
+    .title.title_color_white Like What You See?
+    button.button.button_white.button_marginTop_50.button_colorWrapper_tomato.button_center
+        span BUY ME A BEER?
+        .button__img.button__img_beer
+        .button__colorWrapper
+        
+.container.container_paddingVertical_10vw.container_gray
+    .container.container_maxWidth_430.container_center
+        .row
+            .social.social_dribble
+            .social.social_facebook
+            .social.social_telegram
+            .social.social_twitter
+        
+    
+                
+            
+    
+            
+        
+        
+
     
     
 

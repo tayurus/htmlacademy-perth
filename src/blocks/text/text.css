@@ -1,6 +1,11 @@
 .text{
     font-family: "Proxima Nova";
     line-height: 25px;
+    display: flex;
+    opacity: 0;
+    position: relative;
+    color: #7e7e7e;
+
 }
 
 .text_bold{
@@ -13,4 +18,21 @@
 
 .text_white{
     color: #fff;
+}
+
+.text_inline{
+    display: inline;
+}
+
+.text.paragraph{
+    padding-left: 15px;
+}
+
+.text.paragraph::before{
+    left: 0%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 6px;
+    background-color: #4eacdd;
 }

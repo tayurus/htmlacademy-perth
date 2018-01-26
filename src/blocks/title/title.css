@@ -9,3 +9,15 @@
 .title_textRight{
     text-align: right;
 }
+
+.title_fontSize_35{
+    font-size: 35px;
+}
+
+.title_marginBottom_20{
+    margin-bottom: 20px;
+}
+
+.title_color_white{
+    color: white;
+}

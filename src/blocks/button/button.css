@@ -1,16 +1,97 @@
 .button{
-    padding: 21px 28px 20px
+    padding: 21px 28px 20px;
     border: 2px solid #ffffff;
     display: flex;
     align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    transition: width 2s, height 4s;
 }
+
+
+.button > span{
+    position: relative;
+    z-index: 100;
+}
+
+.button_center{
+    margin: auto;
+}
+
 
 .button__img{
     margin-left: 12px;
+    position: relative;
+    z-index: 100;
+}
+
+.button__colorWrapper{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    transition: 1s;
+}
+
+.button_colorWrapper_tomato > .button__colorWrapper{
+    background-color: tomato;
+}
+
+.button_colorWrapper_tomato:hover > .button__colorWrapper{
+    width: 100%;
 }
 
 .button__img_download{
     width: 18px;
     height: 13px;
     background: url("img/button_download.png") no-repeat center;
+}
+
+.button__img_message{
+    width: 18px;
+    height: 13px;
+    background: url("img/button_message.png") no-repeat center;
+}
+
+.button__img_view{
+    width: 18px;
+    height: 13px;
+    background: url("img/button_view.png") no-repeat center;
+}
+
+.button__img_beer{
+    width: 18px;
+    height: 13px;
+    background: url("img/button_beer.png") no-repeat center;
+}
+
+.button_message{
+    border: 2px solid #14af8f;
+    color: #14af8f;
+}
+
+.button_white{
+    color: #fff;
+}
+
+.button_green{
+    color: #14af8f;
+    border-color: #14af8f;
+}
+
+.button_pink{
+    color: #ea4c89;
+    border-color: #ea4c89;
+}
+
+.button_marginTop_50{
+    margin-top: 50px;
+}
+
+.button_left{
+    position: relative;
+    left: calc(100% - 240px);
 }

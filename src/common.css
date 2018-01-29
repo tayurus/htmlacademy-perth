@@ -16,3 +16,28 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+.background_tomato{
+	background-color: tomato !important;
+}
+
+.rotateY_180{
+	transition: 1s;
+	transform: rotateY(180deg);
+}
+
+.rotate45{
+	transform: rotate(45deg);
+}
+.rotate_minus45{
+	transform: rotate(-45deg) translate(5px,-5px);
+}
+
+.rotateY_0{
+	transition: 1s;
+	transform: rotateY(0deg);
+}
+
+.hidden{
+	display: none;
+}

@@ -2,7 +2,7 @@ include ../blocks/head/head.jade
 .container.container_blue
     include ../blocks/header/header.jade
     //FIRST
-    .container.container_maxWidth_740.container_center.container_marginTop_40 
+    .container.container_maxWidth_740.container_center.container_marginTop_40.rotateY_0
         h1.title.title_textRight.header__title Meet Perth
         h2.title.title_fontSize_35.header__title 
             | A stupidly simple, flat PSD. Oh yeah, it’s 
@@ -14,6 +14,15 @@ include ../blocks/head/head.jade
             .button__colorWrapper
             
         .container__phone
+        
+        .container.container_center.container__menu.hidden.rotateY_180
+            nav.container__menu
+                .container__menu-item #Пункт 1
+                .container__menu-item #Пункт 2
+                .container__menu-item #Пункт 3
+                .container__menu-item #Пункт 4
+                .container__menu-item #Пункт 5
+                .container__menu-item #Пункт 6
         
 //SECOND 
 .container.container_gray

@@ -18,11 +18,13 @@
     cursor: pointer;
 }
 
-.header__menu > div{
+.header__menu > .header__menu-item{
     height: 4px;
     background-color: #ffffff;
     margin-top: 3px;
 }
+
+
 
 @media (max-width:960px), (max-device-width:960px) {
     .header__logo{
